@@ -1,4 +1,6 @@
-## **Test Case - Verify the 'standard_user' logged in successfully and the system redirects to the HomePage**
+#Login Test Cases
+
+## **Test Casse - Verify the 'standard_user' logged in successfully and the system redirects to the HomePage**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -8,7 +10,7 @@
   4. Click on "Login" button
 - **Expect Result**:The system Home Page displayed
 
-## **Test Case - Verify the system displays an error message when "locked_out_user" attempts to log in .**
+## **Test Casse - Verify the system displays an error message when "locked_out_user" attempts to log in .**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -22,7 +24,7 @@
    - `'Epic sadface: Sorry, this user has been locked out.'`
   3. The user remains on the login page.
 
-## **Test Case - Verify the system displays incorrect product images on the "Home Page" for "problem_user" .**
+## **Test Casse - Verify the system displays incorrect product images on the "Home Page" for "problem_user" .**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -34,7 +36,7 @@
   1. The system redirects the user to the "Home Page."
   2. On the Home Page, all of the displayed products have incorrect images
 
-## **Test Case - Verify the system displays an error message when the user enters an incorrect password.**
+## **Test Casse - Verify the system displays an error message when the user enters an incorrect password.**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -47,7 +49,7 @@
   2. An error message is displayed on the login page with the following content:
    - `'Epic sadface: Username and password do not match any user in this service.'`
 
-## **Test Case - Verify the user fills with the wrong username and the system displays an error message .**
+## **Test Casse - Verify the user fills with the wrong username and the system displays an error message .**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -57,7 +59,7 @@
   4. Click on "Login" button
 - **Expect Result**: The system display an error message,such as:('Epic sadface: Username and password do not match any user in this service.')
 
-## **Test Case - Verify the system displays an error message when the user enters an incorrect username.**
+## **Test Casse - Verify the system displays an error message when the user enters an incorrect username.**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -80,7 +82,7 @@
   2. An error message is displayed on the login page with the following content:
    - `'Epic sadface: Password is required.'`
 
-## **Test Case - Verify the system displays an error message when the user only fills the password input.**
+## **Test Casse - Verify the system displays an error message when the user only fills the password input.**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
@@ -92,7 +94,7 @@
   2. An error message is displayed on the login page with the following content:
    - `'Epic sadface: Username is required.'`
 
-## **Test Case - Verify the system displays the labels and inputs correctly on the login page.**
+## **Test Casse - Verify the system displays the labels and inputs correctly on the login page.**
 - **Precondition**:
   1. The user has access to the login page.
 - **Steps**:
